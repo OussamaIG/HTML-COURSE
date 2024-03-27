@@ -1,0 +1,16 @@
+html{
+    font-family: 'Poppins', serif;
+    font-size: 20px;
+}
+body{ 
+    margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.one{
+    background-image: url(walid-amghar-8Bw3FnqPmp8-unsplash\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 729px;
+}
