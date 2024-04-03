@@ -1,0 +1,44 @@
+body{
+    margin: 0px;    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+.maintwo{
+    margin-left: 10px;
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+}
+.sub{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    width: 20%;
+    height: 20%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub.one{
+    background-color: green;
+}
+.sub.two{
+    background-color: #e0ae24;
+}

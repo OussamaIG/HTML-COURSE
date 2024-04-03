@@ -1,16 +1,69 @@
 html{
     font-family: 'Poppins', serif;
-    font-size: 20px;
+    font-size: 10px;
 }
-body{ 
-    margin: 0;
+body{
+    margin: 0px;
     width: 100vw;
-    overflow-x: hidden;
+    height: 300vh;
 }
-.one{
-    background-image: url(walid-amghar-8Bw3FnqPmp8-unsplash\ \(1\).png);
-    background-repeat: no-repeat;
-    background-size: 100%;
+/* 
+OverFlow 
+
+.mydiv{
+    height: 190px;
+    width: 200px;
+    background-color: aqua;
+    border: 2px solid black;
+    overflow: scroll;
+}
+*/
+
+/* 
+img{
+    float: left;
+}
+*/
+/* 
+.mydiv{
+    height: 50px;
     width: 100%;
-    height: 729px;
+    margin-top: 0px;
+    background-color: aqua;
+    border: 2px solid black;
+    position: fixed;
+}
+p{
+    position: relative;
+    top: 50px;
+
+}
+*/
+
+/* 
+.mydiv{
+    height: 500px;
+    width: 50%;
+    margin-top: 0px;
+    background-color: aqua;
+    border: 2px solid black;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.innerdiv{
+    height: 20%;
+    width: 50%;
+    background-color: red;
+    position: absolute;
+    left: 10px;
+    
+}
+*/
+
+img{
+    position: relative;
+    top: 50px;
+    z-index: -1;
 }
