@@ -1,0 +1,28 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.container{
+    display: grid;
+    height: 80%;
+    width:50%;
+    background-color: aqua;
+    grid-template-columns: 22% 22% 22% 22%;
+    grid-template-rows: 30% 30% 30%;
+    justify-content: space-around;
+    align-content: center;
+    row-gap: 10px;
+}
+.element, .element2{
+    background-color: brown;
+}
+.element2{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}

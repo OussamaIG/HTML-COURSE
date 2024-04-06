@@ -1,12 +1,14 @@
 body{
-    margin: 0px;    display: flex;
+    margin: 0px;    
+    display: flex;
     height: 100vh;
+    width: 100vw;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 .main{
-    height: 500px;
-    width: 500px;
+    height: 60%;
+    width: 40%;
     background-color: aqua;
     display: flex;
     flex-direction: column;
@@ -14,9 +16,8 @@ body{
     align-content: stretch;
 }
 .maintwo{
-    margin-left: 10px;
-    height: 500px;
-    width: 500px;
+    height: 60%;
+    width: 40%;
     background-color: aqua;
     display: flex;
     flex-direction: row;
@@ -26,7 +27,7 @@ body{
 }
 .sub{
     color: white;
-    font-size: 25px;
+    font-size: 2em;
     text-align: center;
     font-weight: 700;
     width: 20%;
@@ -41,4 +42,21 @@ body{
 }
 .sub.two{
     background-color: #e0ae24;
+}
+
+@media screen and (max-width: 450px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .main{
+        width: 60%;
+        height: 40%;
+    }
+    .maintwo{
+            width: 60%;
+            height: 40%;
+    }
 }

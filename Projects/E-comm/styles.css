@@ -1,0 +1,77 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+}
+header{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.firstbare{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.firstbare .element{
+    height: 100%;
+    font-family: 'Ubuntu', Courier, monospace;
+    display: flex;
+    align-items: center;
+    font-weight: 200;
+    gap: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.firstbare .elementcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-weight: 200;
+    gap: 20px;
+}
+.firstbare .element img{
+    height: 50%;
+}
+.firstbare .input{
+    width: 30%;
+    height: 50%;
+}
+.firstbare .input form{
+    height: 100%;
+}
+.firstbare .input form img{
+    position: absolute;
+    height: 15px;
+    top: 16px;
+    left: 612px;
+}
+.firstbare .input form input{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    padding-left: 25px;
+    border: 1px solid black;
+}
+.secondbare{
+    width: 70%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.secondbare .link{
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins';
+    gap: 5px;
+    cursor: pointer;
+}
