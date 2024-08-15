@@ -1,0 +1,44 @@
+body{
+    height: 200vh;
+    background-color: beige;
+    width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+    display: block;
+}
+.blue{
+    height: 8vh;
+    width: 20%;
+    position: relative;
+    left: 79%;
+    background-color: rgb(97, 18, 235);
+}
+.red{
+    height: 8vh;
+    width: 20%;
+    position: absolute;
+    left: 10%;  
+}
+.yellow{
+    height: 8vh;
+    width: 20%;
+    position: absolute;
+    left: 40%;
+   
+}
+.green{
+    height: 8vh;
+    width: 20%;
+    position: absolute;
+    left: 70%;
+   
+}
+p{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-family: 'Ubuntu';
+}
+a{
+    text-decoration: none;
+}

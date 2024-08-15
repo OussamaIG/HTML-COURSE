@@ -1,0 +1,81 @@
+body{
+    height: 150vh;
+    width: 100vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 5px solid black;
+    background-color: rgb(255, 85, 0);
+    height: 8%;
+}
+header h1{
+    font-family: 'Bangers';
+    color: white;
+    margin-left: 20px;
+}
+nav{
+    position: absolute;
+    left: 75%;
+}
+li{
+    list-style: none;
+    margin: 20px;
+    color: white;
+    font-weight: 800;
+    font-family: 'Ubuntu';
+    font-size: 20px;
+}
+ul{
+    display: flex;
+}
+main{
+    width: 100%;
+    height: 92%;
+}
+.divone{
+    width: 100%;
+    height: 50%;
+    border: 5px solid black;
+}
+.divtwo{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    border: 5px solid black;
+}
+.square{
+    position: absolute;
+    left: 40%;
+    top: 23%;
+    width: 20%;
+    height: 40%;
+    border: 10px solid black;
+    background-color: blue;
+}
+.square2{
+    position: relative;
+    width: 20%;
+    height: 60%;
+    background-color: blue;
+    border: 5px solid black;
+    border-radius: 10%;
+}
+.square2.one{
+    left: 10%;
+    top: 10%;
+}
+.square2.two{
+    left: 20%;
+    top: 10%;
+}
+.square2.three{
+    left: 30%;
+    top: 10%;
+}
