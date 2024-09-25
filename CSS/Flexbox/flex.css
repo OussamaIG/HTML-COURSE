@@ -1,40 +1,30 @@
 body{
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
     margin: 0;
     background-color: aqua;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
 }
-.class{
-    height: 40%;
+.red{
+    background-color: #ff0000;
     width: 40%;
-    background-color: brown;
-    margin: 10px;
-}
-.class.one{
+    height: 40%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: space-evenly;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    align-content: space-around;
 }
-.class.two{
-    background-color: blueviolet;
-}
-.class .number{
-    height: 25%;
-    width: 15%;
-    background-color: white;
+.one{
+    width: 10%;
+    height: 10%;
+    background-color: blue;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 25px;
-    font-weight: 800;
+    color: white;
     font-family: 'Poppins';
-    margin: 10px;
+    font-weight: 700;
+    margin: 5px;
 }

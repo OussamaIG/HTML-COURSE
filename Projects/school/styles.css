@@ -1,0 +1,93 @@
+html{
+    font-family: 'Poppins';
+    background-color: white;
+    overflow-x: hidden;
+}
+body{
+    width: 100vw;
+    margin: 0;
+}
+header{
+    width: 100%;
+    background-color: #F5EFE6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5em;
+}
+header .information{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 5em;
+}
+header .information .info{
+    display: flex;
+    align-items: center;
+    margin-right: 2em;
+    gap: 1em;
+}
+header .information .info .text{
+    display: flex;
+    flex-direction: column;
+}
+header .information .info .text p{
+    margin: 0;
+}
+header .line{
+    margin-right: 2em;
+    margin-left: 2em;
+    width: 96%;
+    height: 2px;
+    background-color: #A49D9D;
+}
+header nav{
+    display: flex;
+    margin-left: 0.5em;
+    width: 30%;
+    justify-content: space-around;
+}
+header nav a{
+    text-decoration: none;
+    color: #1E1E1E;
+    font-weight: 500;
+}
+main .backgroundimg{
+    width: 100%;
+    height: 87.5vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(images/picture.png);
+}
+#square{
+    position: relative;
+    top: 110px;
+    left: 100px;
+}
+.backinfo{
+    position: absolute;
+    top: 230px;
+    left: 170px;
+}
+#toptext{
+    color: white;
+    font-size: 40px;
+}
+#middletext{
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+}
+.backinfo button{
+    background-color: #1A2948;
+    font-family: 'Poppins';
+    border: 0px;
+    color: white;
+    font-size: 15px;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 10px;
+    cursor: pointer;
+}

@@ -13,27 +13,20 @@ body{
     width:50%;
     background-color: aqua;
     display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
-    grid-template-rows: 30% 30%;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 30% 30% 30%;
     gap: 10px;
     justify-content: center;
-    align-content: center; 
-
+    align-content: center;
 }
-.number{
-    background-color: red;
+.element{
+    background-color: blueviolet;
     border-radius: 20px;
-
 }
-.number.four{
-    grid-column-start: 2;
-    grid-column-end: 4;
+.element.one{
+    grid-column-start: 1;
+    grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
-    background-color: white;
-    transition: all 1s ease-in-out; 
-}
-.number.four:hover{
-    background-color: green;
-    transform: rotateZ(360deg);
+    background-color: red;
 }

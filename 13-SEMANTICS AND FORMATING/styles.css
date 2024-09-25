@@ -1,48 +1,41 @@
+html{
+    font-size: 16px;
+    font-family: 'Poppins';
+}
 body{
-    width: 100vw;
     margin: 0;
-    background-color: white;
+    height: 100vh;
+    width: 100vw;
 }
 header{
     display: flex;
+    height: 8%;
+    padding-left: 10px;
+    padding-right: 10px;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
-    height: 4em;
+    align-items: center;
     background-color: #0096C8;
-    padding-left: 2em;
-    padding-right: 2em;
+    color: white;
 }
-nav{
-    display: flex;
-    flex-direction: row;
-    gap: 6em;
-}
-nav a{
+header a{
     color: white;
     text-decoration: none;
-    font-family: 'Poppins';
-    font-weight: bold;
-    font-size: 15px;
+    font-weight: 600;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+header ul li{
+    margin-left: 4em;
 }
 header button{
-    background-color: white;
+    background: white;
     color: #0096C8;
     font-family: 'Poppins';
     font-weight: 600;
-    padding: 0.8em;
     border: 0px;
-    border-radius: 10px;
-}
-header .title{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-header .title h1{
-    font-family: 'Poppins';
-    font-size: 15px;
-    color: white;
-    margin-left: 5px;
-    font-weight: 700;
+    border-radius: 5px;
+    font-size: 18px;
 }
