@@ -210,3 +210,69 @@ main .courses .coursess .course .courseinfo button{
     margin-left: 0.2em;
     margin-right: 0.2em;
 }
+footer{
+    margin-top: 4em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+footer .footerinfosq{
+    background-color: #1A2948;
+    width: 89%;
+    border-radius: 15px;
+    margin-bottom: 2em;
+    display: flex;
+}
+
+footer .footerinfosq .footerimg{
+    width: 50%;
+    height: 100%;
+    background-image: url(images/picture\ \(3\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 15px ;
+    border-bottom-right-radius: 15px ;
+}
+footer .footerinfosq .footerinfo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    margin-bottom: 2em;
+}
+footer .footerinfosq .footerinfo .head{
+    color: white;
+    padding-left: 4em;
+}
+#ctsc{
+    font-size: 2.5em;
+    font-weight: 600;
+}
+#infossa{
+    font-weight: 200;
+}
+
+footer .footerinfosq .footerinfo .main{
+    display: flex;
+    flex-direction: column;
+    padding-left: 4em;
+}
+footer .footerinfosq .footerinfo .main .item{
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 1em;
+    font-weight: 200;
+}
+
+footer .footerinfosq .footerinfo .footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 2em;
+}
+footer .footerinfosq .footerinfo .footer img{
+    cursor: pointer;
+}

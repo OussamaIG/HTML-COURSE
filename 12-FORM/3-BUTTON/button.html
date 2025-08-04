@@ -4,13 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .red{
+            background-color: red;
+        }
+    </style>
 </head>
 <body>
-    <form id="myform">
-        <input type="text" placeholder="username">
-        <input type="email" placeholder="email">
-        <button type="submit" form="myform" formmethod="post">Submit</button>
-        <button type="reset" form="myform">Reset</button>
+    <form id="myform" action="../../1-Introduction/index.html">
+        <input type="text" placeholder="username" required>
+        <input type="password" placeholder="password">
+        <button class="btn2" >Submit</button>
     </form>
+        <button class="mybutton">Click me</button>
+    <script>
+        const mybtn = document.querySelector(".mybutton")
+        const btn2 = document.querySelector(".btn2")
+
+        mybtn.addEventListener("click", ()=>{
+            btn2.setAttribute("disabled", "")
+        })
+        
+    </script>
 </body>
 </html>

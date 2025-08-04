@@ -4,21 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+      option{
+        
+      }
+    </style>
 </head>
 <body>
     <form action="" id="myform">
-      <select name="" id="" form="myform" size="1">
-        <option value="" disabled selected>---</option>
+      <select form="myform" name="myselect">
+        <option value="" label="AR" value="AR" > <img src="flag.png" alt=""></option>
+        <option value="" label="EN" value="EN"></option>
+        <option value="" label="FR" value="FR"></option>
+      </select>
+      <select>
+        <option label="--" disabled selected></option>
         <optgroup label="Fruits">
-            <option value="Apples">Apples</option>
-            <option value="Banana">Banana</option>
-            <option value="Orange">Orange</option>
+          <option label="Banana"></option>
+          <option label="Oranges"></option>
+          <option label="Cherries"></option>
         </optgroup>
-        <optgroup label="Vegies">
-            <option value="Potatoes">Potatoes</option>
-            <option value="Tomatoes">Tomatoes</option>
-            <option value="Carrots">Carrots</option>
-        </optgroup>  
+        <optgroup label="Veggies">
+          <option label="Potatoes"></option>
+          <option label="Tomatoes"></option>
+          <option label="Carrots"></option>
+        </optgroup>
       </select>
     </form>
 </body>

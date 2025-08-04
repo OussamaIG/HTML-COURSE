@@ -4,60 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table{
+            border: 2px solid black;
+            padding: 0px;
+            margin: 0px;
+        }
+        td{
+            margin: 0px;
+            padding: 0px;
+            border-right: 2px solid black;
+            border-bottom: 2px solid black;
+        }
+        tr{
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
 </head>
 <body>
-    <table style="border: 2px solid black;">
+    <table>
         <colgroup>
             <col span="1" style="background-color: aqua;">
-            <col span="1" style="background-color: blueviolet;">
+            <col span="2" style="background-color: red;">
         </colgroup>
-        <thead >
+        <caption>This is a table of students</caption>
+        <thead>
             <tr>
-                <td>Name</td>
+                <td class="toedit">Name</td>
                 <td>Surname</td>
+                <td>Age</td>
                 <td>Email</td>
-                <td>Phone</td>
-                <td>Adresse</td>
+                <td>University</td>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>10</td>
-                <td>0.5</td>
-                <td>16</td>
+                <td>Oussama</td>
+                <td>IG</td>
+                <td>24</td>
+                <td>myemail@gmail.com</td>
+                <td>USTHB</td>
             </tr>
             <tr>
-                <td>10</td>
-                <td>0.5</td>
-                <td>16</td>
+                <td>Oussama</td>
+                <td>IG</td>
+                <td>24</td>
+                <td>myemail@gmail.com</td>
+                <td>USTHB</td>
             </tr>
             <tr>
-                <td>10</td>
-                <td>0.5</td>
-                <td>16</td>
-            </tr>
-            <tr>
-                <td>10</td>
-                <td>0.5</td>
-                <td>16</td>
-            </tr>
-            <tr>
-                <td>10</td>
-                <td>0.5</td>
-                <td>16</td>
-            </tr>
-            <tr>
-                <td>10</td>
-                <td>0.5</td>
-                <td>16</td>
-            </tr>
-            <tr>
-                <td>10</td>
-                <td>0.5</td>
-                <td>16</td>
+                <td>Oussama</td>
+                <td>IG</td>
+                <td>24</td>
+                <td>myemail@gmail.com</td>
+                <td>USTHB</td>
             </tr>
         </tbody>
-        <caption>Math Table : </caption>
     </table>
+    <svg height="130" width="500">
+  <defs>
+    <linearGradient id="grad1">
+      <stop offset="0%" stop-color="yellow" />
+      <stop offset="100%" stop-color="red" />
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+  <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SVG</text>
+  Sorry, your browser does not support inline SVG.
+</svg>
+<svg width="300" height="200">
+  <rect width="100%" height="100%" fill="green" />
+</svg>
+
 </body>
 </html>
