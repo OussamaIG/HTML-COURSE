@@ -1,0 +1,68 @@
+html{
+  font-size: 100%;
+  font-family: 'Poppins', 'Arial', 'Ubuntu';
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+.whitespace{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login{
+  width: 50%;
+  background-color: #0575E6;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  width: 50%;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  padding: 10px 15px;
+  justify-content: space-between;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 2em;
+}
+.btn{
+  color: white;
+  background-color: #0575E6;
+  border: 0px;
+  text-align: center;
+  padding: 10px 15px;
+}
+p{
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 500;
+}
+a{
+  text-decoration: none;
+  color: black;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+input{
+  font-family: 'Poppins';
+  padding: 10px 15px;
+  border: 2px solid black;
+  border-radius: 8px;
+}

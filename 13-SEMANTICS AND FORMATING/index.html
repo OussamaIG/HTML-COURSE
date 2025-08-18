@@ -1,27 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SEVREE EDUCATION</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-</head>
-<body>
-   <header>
-    <img src="logo.png" alt="This is a logo">
-    <nav>
-        <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">COURSES</a></li>
-            <li><a href="">CONTACT US</a></li>
-        </ul>
-    </nav>
-    <button>REGISTER NOW</button>
-   </header>
-   <main>
-   </main>
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body{
+        display: flex;
+        flex-direction: column;
+      }
+      button{
+        background-color: blue;
+        color: white;
+        font-family: 'Poppins';
+        font-size: 20px;
+        border: 0px;
+        border-radius: 5px;
+        padding: 10px 15px;
+        width: 200px;
+        cursor: pointer;
+      }
+      .classdialog{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: blue;
+        font-family: 'Poppins';
+        color: white;
+        font-size: 25px;
+        border-radius: 15px;
+        width: 15em;
+      }
+      .red{
+        background-color: red !important;
+      }
+      div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+      }
+      .hidden{
+        display: hidden;
+      }
+    </style>
+  </head>
+  <body>
+      <button class="btn">SHOW</button>
+      <dialog>
+        <img src="https://i.pinimg.com/736x/90/d1/ac/90d1ac48711f63c6a290238c8382632f.jpg" alt="">
+        <div>
+          <p>Oussama</p>
+          <p>IG</p>
+          <button class="red">CLOSE</button>
+        </div>
+      </dialog>
+      <script>
+        const mybtn = document.querySelector('.btn')
+        const dialog = document.querySelector('dialog')
+        const closebtn = document.querySelector('.red')
+
+        mybtn.addEventListener('click', ()=>{
+          dialog.setAttribute("class", "classdialog")
+        })
+
+        closebtn.addEventListener('click', ()=>{
+          dialog.setAttribute("class", "hidden")
+        })
+      </script>
+  </body>
 </html>
